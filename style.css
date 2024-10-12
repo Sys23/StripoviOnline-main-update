@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-size: 18px;
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: #868f98;
+    overflow: hidden;
+}
+
+/* Navbar */
+
+nav {
+    padding: 24px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.efekat:hover {
+    transition: 0.125s ease;
+    color: white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0;
+}
+
+.badge {
+    position: relative;
+    top: -20px;
+    left: -25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+button {
+    margin: 5px;
+}
+
+/*Slike*/
+
+.logo {
+    display: inline;
+    margin-right: 450px;
+}
+
+.thumbnail img {
+    display: inline;
+    height: 250px;
+    width: 180px;
+}
+
+/*Dugme "Dodaj"*/
+
+.dugme {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    line-height: 2vw;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Stripovi*/
+
+#stripovi {
+    padding-top: 1em;
+    margin-left: 10px;
+}
+
+.comic-img-top {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    margin-right: 1em;
+    padding-top: 3em;
+}
+
+.naziv {
+    font-family: 'Fredoka One', cursive;
+    float: right;
+    margin-top: auto;
+}
+
+.cena {
+    position: absolute;
+    color: rgb(16, 111, 114);
+    bottom: 3em;
+    right: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+}
+
+.opis {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.kupi {
+    filter: invert(100%);
+    margin-bottom: 10px;
+}
+
+/*Index button ispod vest*/
+.morenews {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.morenews:hover{
+    color: white;
+}
+
+/*Index carousel*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 1em;
+}
+
+.carousel-inner {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+/*Index Novosti*/
+
+.card-title {
+    font-family: 'Fredoka One', cursive;
+}
+
+.card-body>p {
+    font-family: 'Lato', sans-serif;
+}
+
+.card-deck {
+    padding-bottom: 1em;
+}
+
+.card:hover {
+    box-shadow: 55px 55px 55px 55px rgba(0, 0, 0, 0.3);
+    transition: 375ms;
+}
+
+#novostiid>h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+/*Index Edicije*/
+
+.edicijeindex>h1{
+    font-family: 'Fredoka One', cursive;
+    padding: 0.5em;
+}
+
+#marvelind{
+    background: url('slike/marvel.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#bonelliind{
+    background: url('slike/bonelli.jpg') center top/cover no-repeat;
+    background-size: cover;
+}
+
+#dcind{
+    background: url('slike/DC.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#darkhorseind{
+    background: url('slike/darkhorse.png') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#makondoind{
+    background: url('slike/makondo.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+.overlay-inner{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    height: 15em;
+}
+
+/*Edicije slike*/
+
+
+
+
+/*Dugme "Vrh"*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
+    height: 38px;
+    width: 60px;
+    display: none;
+    font-size: 250px;
+
+}
+
+.fa-angle-up{
+    font-size: 250px;
+}
+/*Footer*/
+
+.footer-middle {
+    margin-top: 0em;
+}
+
+.form {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.socials, .contactform, .map {
+    text-align: center;
+}
+
+.socials .contactform .map>h5 {
+    padding-bottom: 2em;
+}
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(60deg, #3A6073, #16222A);
+    color: white;
+    padding-top: 1.5em;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Social */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/* Footer social */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoInstagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-network a.icoFacebook:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoInstagram:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
